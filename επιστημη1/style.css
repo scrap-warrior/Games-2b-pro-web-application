@@ -1,0 +1,131 @@
+body{background-color: #a7a1a1;}
+#footer {
+    color: rgb(6, 6, 41);
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;}
+
+nav{
+        margin: 7px;
+        padding: 7px;
+        overflow: hidden;
+        background-color: #333;
+        display: block;}   
+
+.horizontal_bar a
+{
+    display: inline; /* horizontal menu */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(250, 236, 236);
+    text-align: center;
+    padding: 7px;/*αλλάζεις το πάχος του main bar*/
+    text-decoration: none;
+    float: left; 
+}
+
+.horizontal_bar a {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.horizontal_bar {
+    display: flex;
+    align-items: center;
+}
+
+#Games_2b_Pro{
+    margin-left: 240px;/* αλλάζεις πόσο μακριά θα είνα από το search bar αριστερά του*/
+    color: rgb(250, 236, 236);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;}
+
+.menu a{
+    display: block; /* vertical menu */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(250, 236, 236);
+    text-align: left;
+    padding: 15px;/*αλλάζεις το πάχος του menu bar*/
+    text-decoration: none;
+    float: left;
+    border-bottom: 1px solid white;
+}
+
+.menu a:last-child{
+    border-bottom: none;
+}
+
+.menu {/*for vertical menu*/
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+nav a:hover
+      {
+          background: rgb(153,153,153);
+          color: #0a0a0a;
+      }
+    
+.active {
+        background-color: #04AA6D;
+      }
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+#searchbar {
+        margin: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        width: 25%;
+        box-sizing: border-box;
+        margin-left: 200px; /*αλλάζεις πόσο κοντά είναι στο αριστερό μέρος της σελίδας.*/
+        margin-right: 40px;
+    }
+    
+#list { 
+        position:absolute;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        left: 0px;
+        margin-left: -175px;/*Εδώ αλλάζεις πόσο θα είναι τα προϊόντα που βγαίνουν από κάτω από το searchbar μακριά από τοίχο; φάση*/
+        top: 100px;
+    }
+    
+.Games {
+        display: none;
+        color: rgb(157, 210, 107);
+        font-size: 1.2em;
+        padding: 7px;
+        border-bottom: 1px solid #302a2a;
+        animation: fadeIn 0.5s ease-in-out;
+        margin-left: 500px;
+        background-color: rgb(48, 45, 45);/*χρώμα κουμπιού*/
+        border-radius: 2px;
+        width: 160px;
+    }
+    
+.Games:last-child {
+        border-bottom: none;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
