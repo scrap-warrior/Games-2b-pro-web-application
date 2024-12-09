@@ -11,17 +11,18 @@ nav{
         padding: 7px;
         overflow: hidden;
         background-color: #333;
-        display: block;}   
+        display: block;
+    }
+       
 
-.horizontal_bar a
-{
+.horizontal_bar a{
     display: inline; /* horizontal menu */
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
     color: rgb(250, 236, 236);
     text-align: center;
-    padding: 7px;/*αλλάζεις το πάχος του main bar*/
+    padding: 3px;/*αλλάζεις το πάχος του main bar*/
     text-decoration: none;
     float: left; 
 }
@@ -35,10 +36,11 @@ nav{
 .horizontal_bar {
     display: flex;
     align-items: center;
+    border-radius: 5px;
 }
 
 #Games_2b_Pro{
-    margin-left: 240px;/* αλλάζεις πόσο μακριά θα είνα από το search bar αριστερά του*/
+    margin-left: 280px;/* αλλάζεις πόσο μακριά θα είνα από το search bar αριστερά του*/
     color: rgb(250, 236, 236);
     font-weight: bold;
     text-decoration: none;
@@ -64,7 +66,9 @@ nav{
 .menu {/*for vertical menu*/
     display: flex;
     flex-direction: column;
-    width: 150px;
+    min-width: 159.5px;
+    width: 159.5px;
+    border-radius: 5px;
 }
 nav a:hover
       {
@@ -89,6 +93,7 @@ nav a:hover
         box-sizing: border-box;
         margin-left: 200px; /*αλλάζεις πόσο κοντά είναι στο αριστερό μέρος της σελίδας.*/
         margin-right: 40px;
+        min-width: 150px;
     }
     
 #list { 
@@ -129,3 +134,169 @@ nav a:hover
             transform: translateY(0);
         }
     }
+
+#description{
+    color: rgb(0, 0, 0);
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    flex-grow: 1;
+    padding-right: 150px;
+    text-align: left;
+    text-indent: 20px;
+    padding-top: 50px;
+}  
+
+#paragraph_next-to-menu{
+    display: flex;
+    gap: 100px;
+}
+
+#Headline_above_paragraph{
+    display: block;
+    gap: 10px;
+}
+
+#Headline{
+    padding-left: 270px;
+    padding-top: 40px;
+}
+
+#flex_g-v{
+    display: flex;
+}
+
+#games2bpro{
+    margin-left: 55px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(127, 52, 52);
+    border-right: 2px solid rgb(143, 98, 98); 
+    margin-top: 35px;
+    border-left: 2px solid rgb(143, 98, 98);
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#img_videogames{
+    display: block;
+    margin-left: 260px;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+
+#bb{
+    color: rgb(161, 85, 85);
+}
+
+#video-videogames{
+    display: block;
+    margin-left: 330px;
+    margin-right: auto;
+    margin-top: 110px;
+    border-radius: 8px;
+}
+
+#block_v-v{
+    display: block;
+}
+
+.homepg {
+    max-height:40px;
+}
+
+aside {
+    min-width: 170px;
+    width: 20%;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+    background-color: none;
+  }
+
+
+.orgs {
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:space-evenly;
+    max-width: 100%;
+}
+
+.org {
+	flex-basis: calc(33.3%-10px);
+    margin-bottom: 20px;
+	background-color: #ffffff00;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0 5px 20px rgba(111, 0, 255, 0.3);
+    
+}
+
+.org img {
+	max-width: 520px;
+}
+
+
+section h1{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 140px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu_index a{
+    display: block; /* vertical menu */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(250, 236, 236);
+    text-align: left;
+    padding: 15px;/*αλλάζεις το πάχος του menu bar*/
+    text-decoration: none;
+    float: left;
+    border-bottom: 1px solid white;
+}
+
+.menu_index a:last-child{
+    border-bottom: none;
+}
+
+.menu_index {/*for vertical menu*/
+    display: flex;
+    flex-direction: column;
+    min-width: 159.5px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+#games2bpro1{
+    margin-left: 55px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(127, 52, 52);
+    border-right: 2px solid rgb(143, 98, 98); 
+    margin-top: 35px;
+    border-left: 2px solid rgb(143, 98, 98);
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.tables{
+        border: 2px solid rgb(93, 161, 38);
+        border-collapse: collapse;
+}
