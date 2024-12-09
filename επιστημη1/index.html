@@ -8,14 +8,13 @@
 
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="search_bar.js"></script>
-        <script>loadGame(0)</script>
     </head>
     <body>
         <nav class="horizontal_bar">
             <a href="index.html"><img class=homepg src="Arxikh_but_white.png" alt="ΑΡΧΙΚΗ"></a>
             <input id="searchbar" onkeyup="search_games()" type="text" name="search" placeholder="Search games...">
             <ul id="list">
-              <button onclick="location.href='product_details.html'" class="Games" id="1">Call of Duty</button>
+              <button onclick="localStorage.setItem('gameID', 1); window.location = './product_details.html'" class="Games" id="1">Call of Duty</button>
               <button class="Games" id="2">Need for Speed</button>
               <button class="Games" id="3">Grant Turismo</button>
               <button class="Games" id="4">Fall Guys</button>
