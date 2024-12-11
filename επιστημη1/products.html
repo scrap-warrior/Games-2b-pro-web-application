@@ -14,9 +14,11 @@
             <a href="index.html"><img class=homepg src="Arxikh_but_white.png" alt="ΑΡΧΙΚΗ"></a>
             <input id="searchbar" onkeyup="search_games()" type="text" name="search" placeholder="Search games...">
             <ul id="list">
-                <button onclick="location.href='product_details.html'" class="Games" id="1">Call of Duty</button>
-              <button class="Games" id="2">Need for Speed</button>
-              <button class="Games" id="3">Grant Turismo</button>
+                <button onclick="localStorage.setItem('gameID', 1); window.location = './product_details.html'" class="Games" id="1">Call of Duty</button>
+                <button onclick="localStorage.setItem('gameID', 2); window.location = './product_details.html'" class="Games" id="2">Need for Speed</button>
+                <button onclick="localStorage.setItem('gameID', 3); window.location = './product_details.html'" class="Games" id="3">Grant Turismo</button>
+                <button onclick="localStorage.setItem('gameID', 4); window.location = './product_details.html'" class="Games" id="4">Fall Guys</button>
+                <button onclick="localStorage.setItem('gameID', 5); window.location = './product_details.html'" class="Games" id="5">Formula 1</button>
             </ul>
             <p id="Games_2b_Pro">Games 2b Pro</p>
         </nav>

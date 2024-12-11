@@ -44,25 +44,20 @@ function search_games() {
 function loadGame(){
   gameID = window.localStorage.getItem("gameID")
   var gameInfo = JSON.parse(gameData[gameID-1])
-  const attachArea = document.getElementById("gameItems")
-
-  const title = document.createElement("h1")
-  title.textContent = gameInfo.game.name
-  attachArea.append(title)
+ 
+  document.getElementById("title").textContent = gameInfo.game.name
 
   for (const imgLoc in gameInfo.game.imgs){
+    const imgli = document.createElement("li")
     const img = document.createElement("img")
     img.src = gameInfo.game.imgs[imgLoc]
     img.width = 200
-    attachArea.append(img)
+    imgli.append(img)
+    imgli.style.display = "inline"
+    document.getElementById("imgList").append(imgli)
   }
 
-  const descr = document.createElement("p")
-  descr.textContent = gameInfo.game.description
-  attachArea.append(descr)
-
-  const link = document.createElement("a")
-  link.href = gameInfo.game.link
-  link.textContent = "get Game Now"
-  attachArea.append(link)
+  document.getElementById("description").textContent = gameInfo.game.description
+ 
+  document.getElementById("link").href = gameInfo.game.link
 }
