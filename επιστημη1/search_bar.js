@@ -12,7 +12,17 @@ The most recent, Call of Duty: Black Ops 6, was released on October 25, 2024."},
 "description": "the player controls a race car in a variety of races, the goal being to win the race. In the tournament/career mode,\
 the player must win a series of races in order to unlock vehicles and tracks. Before each race, the player chooses a vehicle and has the option of selecting either an automatic or manual transmission.\
 All games in the series have some form of multiplayer mode allowing players to race one another via a split screen, a LAN or the Internet",\
-"link": "https://store.steampowered.com/app/1262540/Need_for_Speed/"}}'];
+"link": "https://store.steampowered.com/app/1262540/Need_for_Speed/"}}',
+
+'{"game":\
+{"name": "Gran Turismo",\
+"imgs": ["GranTurismo/img1.jpg", "GranTurismo/img2.jpg", "GranTurismo/img3.png", "GranTurismo/img4.webp"],\
+"description": "The Gran Turismo series is known for its accurate driving physics emulation, a large number of licensed vehicles,\
+attention to vehicle detail, the ability to tune a car\'s performance, and realistic graphics.Its physics emulation includes real-world dynamics such as weight transfer, suspension response, and understeer/oversteer characteristics.\
+The Sim has been a flagship for the PlayStation console\'s graphics capabilities, and is often used to demonstrate the system\'s potential. It has a replay system shown with a cinematic presentation.\
+The physics of the vehicles are based on their real-life counterparts, and they are represented in the PlayStation controllers rumble features and in specialized racing wheels designed for Gran Turismo and sim racing.",\
+"link": "https://www.gran-turismo.com/gb/products/"}}'
+];
 
 function search_games() {
   let input = document.getElementById('searchbar').value.toLowerCase();
