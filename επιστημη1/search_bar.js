@@ -21,7 +21,14 @@ All games in the series have some form of multiplayer mode allowing players to r
 attention to vehicle detail, the ability to tune a car\'s performance, and realistic graphics.Its physics emulation includes real-world dynamics such as weight transfer, suspension response, and understeer/oversteer characteristics.\
 The Sim has been a flagship for the PlayStation console\'s graphics capabilities, and is often used to demonstrate the system\'s potential. It has a replay system shown with a cinematic presentation.\
 The physics of the vehicles are based on their real-life counterparts, and they are represented in the PlayStation controllers rumble features and in specialized racing wheels designed for Gran Turismo and sim racing.",\
-"link": "https://www.gran-turismo.com/gb/products/"}}'
+"link": "https://www.gran-turismo.com/gb/products/"}}',
+
+'{"game":\
+{"name": "Fall Guys",\
+"imgs": [],\
+"description": "Fall Guys is a free, cross-platform massively multiplayer party royale game.\
+ Clumsily compete in absurd obstacle courses with friends or build your very own chaotic course to share with the community.",\
+"link": "https://store.epicgames.com/en-US/p/fall-guys"}}'
 ];
 
 function search_games() {
