@@ -35,7 +35,16 @@ The physics of the vehicles are based on their real-life counterparts, and they 
 "imgs": ["F1/img1.jpg", "F1/img2.jpg", "F1/img3.jpg", "F1/img4.jpg", "F1/img5.jpg", "F1/img6.jpg"], \
 "description": "players drive cars using game controllers or steering wheels. A session mimics a real race weekend, starting on free practice and ending on the Grand Prix.\
 Throughout the race, players experience pit stops and various incidents, which may result in safety cars and changes to the players super license.",\
-"link": "https://store.steampowered.com/app/2488620/F1_24/"}}'
+"link": "https://store.steampowered.com/app/2488620/F1_24/"}}',
+
+'{"game":\
+{"name": "Scrap Mechanic",\
+"imgs": ["ScrapMechanic/img1.jpg", "ScrapMechanic/img2.jpg", "ScrapMechanic/img3.jpg", "ScrapMechanic/img4.jpg", "ScrapMechanic/img5.jpg", "ScrapMechanic/img6.jpg"],\
+"description": "‘Be a robot mechanic’, they said. \
+‘Easy money’, they said. We’re pretty sure the job description didn’t mention crash landing on a far away planet,\
+with thousands of crazed worker robots out for blood! You’re stranded on a faraway agriculture planet where the Farmbots working the fields have gone haywire.\
+With your tool belt tightly fastened, there’s only one way to survive: using your quick thinking, creativity and a wily knack of turning your surroundings to your advantage!",\
+"link": "https://store.steampowered.com/app/387990/Scrap_Mechanic/"}}'
 ];
 
 function search_games() {
