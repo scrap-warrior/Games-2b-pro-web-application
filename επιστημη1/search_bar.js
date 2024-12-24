@@ -25,10 +25,17 @@ The physics of the vehicles are based on their real-life counterparts, and they 
 
 '{"game":\
 {"name": "Fall Guys",\
-"imgs": [],\
+"imgs": ["FallGuys/img1.jpg", "FallGuys/img2.jpg", "FallGuys/img3.jpg" ,"FallGuys/img4.jpg"],\
 "description": "Fall Guys is a free, cross-platform massively multiplayer party royale game.\
  Clumsily compete in absurd obstacle courses with friends or build your very own chaotic course to share with the community.",\
-"link": "https://store.epicgames.com/en-US/p/fall-guys"}}'
+"link": "https://store.epicgames.com/en-US/p/fall-guys"}}',
+
+'{"game":\
+{"name": "F1 Game Series",\
+"imgs": ["F1/img1.jpg", "F1/img2.jpg", "F1/img3.jpg", "F1/img4.jpg", "F1/img5.jpg", "F1/img6.jpg"], \
+"description": "players drive cars using game controllers or steering wheels. A session mimics a real race weekend, starting on free practice and ending on the Grand Prix.\
+Throughout the race, players experience pit stops and various incidents, which may result in safety cars and changes to the players super license.",\
+"link": "https://store.steampowered.com/app/2488620/F1_24/"}}'
 ];
 
 function search_games() {
