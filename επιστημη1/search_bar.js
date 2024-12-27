@@ -87,10 +87,12 @@ and later on insect larvae and fish eggs once the planet is sufficiently covered
 "link": "https://store.steampowered.com/app/1284190/The_Planet_Crafter/"}}',
 
 '{"game":\
-{"name": "",\
-"imgs": [],\
-"description": "",\
-"link": ""}}',
+{"name": "Timberborn",\
+"imgs": ["Timberborn/img1.gif", "Timberborn/img2.jpg", "Timberborn/img3.jpg", "Timberborn/img4.jpg", "Timberborn/img5.jpg", "Timberborn/img6.jpg"],\
+"description": "Players control a colony of beavers in a post-apocalyptic wasteland where humans have died out. Players build cities, using dams to make the wasteland more habitable and water wheels for power.\
+Players must plan for periods of drought, which cause water levels to fall. This can cause crops to fail and make it difficult to collect the lumber necessary for building. New settlements can be built at any time,\
+which are administered separately. New technologies are unlocked over time",\
+"link": "https://store.steampowered.com/app/1062090/Timberborn/"}}',
 
 '{"game":\
 {"name": "",\
