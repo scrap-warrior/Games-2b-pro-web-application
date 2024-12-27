@@ -44,7 +44,68 @@ Throughout the race, players experience pit stops and various incidents, which m
 ‘Easy money’, they said. We’re pretty sure the job description didn’t mention crash landing on a far away planet,\
 with thousands of crazed worker robots out for blood! You’re stranded on a faraway agriculture planet where the Farmbots working the fields have gone haywire.\
 With your tool belt tightly fastened, there’s only one way to survive: using your quick thinking, creativity and a wily knack of turning your surroundings to your advantage!",\
-"link": "https://store.steampowered.com/app/387990/Scrap_Mechanic/"}}'
+"link": "https://store.steampowered.com/app/387990/Scrap_Mechanic/"}}',
+
+'{"game":\
+{"name": "Raft",\
+"imgs": ["Raft/img1.jpg", "Raft/img2.jpg", "Raft/img3.jpg", "Raft/img4.jpg", "Raft/img5.jpg", "Raft/img6.jpg"],\
+"description": "By yourself or with friends, your mission is to survive an epic oceanic adventure across a perilous sea! Gather debris to survive,\
+expand your raft and set sail towards forgotten and dangerous islands!",\
+"link": "https://store.steampowered.com/app/648800/Raft/"}}',
+
+'{"game":\
+{"name": "War Thunder",\
+"imgs": ["WarThunder/img1.jpg", "WarThunder/img2.jpg", "WarThunder/img3.jpg", "WarThunder/img4.jpg", "WarThunder/img5.jpg", "WarThunder/img6.jpg"],\
+"description": "War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles,\
+from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea,\
+fighting with millions of players from all over the world in an ever-evolving environment.",\
+"link": "https://store.steampowered.com/app/236390/War_Thunder/"}}',
+
+'{"game":\
+{"name": "Hearts of Iron IV",\
+"imgs": ["HOI4/img1.jpg", "HOI4/img2.jpg", "HOI4/img3.jpg", "HOI4/img4.jpg", "HOI4/img5.jpg"],\
+"description": "Take charge of history’s greatest war machines in Hearts of Iron IV, a grand strategy wargame that challenges your strategic abilities and political insight.\
+Refight World War II at the head of nation from the time period, building up an industrial powerhouse and a diplomatic alliance that will effectively wage war on ideological opponents.",\
+"link": "https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/"}}',
+
+'{"game":\
+{"name": "Trailmakers",\
+"imgs": ["Trailmakers/img1.jpg", "Trailmakers/img2.jpg", "Trailmakers/img3.jpg", "Trailmakers/img4.jpg", "Trailmakers/img5.jpg", "Trailmakers/img6.jpg"],\
+"description": "Trailmakers can be played in various game modes including adventure, sandbox, and racing.\
+All game modes can be played in either single-player or multiplayer and the game offers modding support on PC. The camera is usually third-person,\
+but can be changed to first-person by the player.The game features 7 sandbox style maps, Stranded, Treasure Island, Danger Zone, Test Zone, Space Sector, Airborne, and High Seas,\
+2 racing style maps, Rally, and Race Island, 1 PvP style map, The Great Barrier Reef, and 2 campaign maps, Stranded, and airborne, these use the same base maps as the sandbox maps of the same names.",\
+"link": "https://store.steampowered.com/app/585420/Trailmakers/"}}',
+
+'{"game":\
+{"name": "",\
+"imgs": [],\
+"description": "",\
+"link": ""}}',
+
+'{"game":\
+{"name": "",\
+"imgs": [],\
+"description": "",\
+"link": ""}}',
+
+'{"game":\
+{"name": "",\
+"imgs": [],\
+"description": "",\
+"link": ""}}',
+
+'{"game":\
+{"name": "",\
+"imgs": [],\
+"description": "",\
+"link": ""}}',
+
+'{"game":\
+{"name": "",\
+"imgs": [],\
+"description": "",\
+"link": ""}}'
 ];
 
 function search_games() {
