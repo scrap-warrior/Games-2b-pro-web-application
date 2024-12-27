@@ -78,10 +78,13 @@ but can be changed to first-person by the player.The game features 7 sandbox sty
 "link": "https://store.steampowered.com/app/585420/Trailmakers/"}}',
 
 '{"game":\
-{"name": "",\
-"imgs": [],\
-"description": "",\
-"link": ""}}',
+{"name": "The Planet Crafter",\
+"imgs": ["PlanetCrafter/img1.jpg", "PlanetCrafter/img2.jpg", "PlanetCrafter/img3.jpg", "PlanetCrafter/img4.jpg", "PlanetCrafter/img5.jpg", "PlanetCrafter/img6.jpg"],\
+"description": "You are a convict imprisoned for an unknown crime and have been assigned to this planet by Sentinel Corp to create an earth like environment in order to have the charges against you dropped.\
+To do this, you must create items using the various minerals on the planet. The basic minerals are cobalt, ice, iron, magnesium, silicon, and titanium.\
+Using these will allow you access other minerals such as aluminum, iridium, uranium, osmium, zeolite, super alloy and sulfur. In the process of developing a biosphere on the planet you will also need to find seeds,\
+and later on insect larvae and fish eggs once the planet is sufficiently covered in plant life.",\
+"link": "https://store.steampowered.com/app/1284190/The_Planet_Crafter/"}}',
 
 '{"game":\
 {"name": "",\
