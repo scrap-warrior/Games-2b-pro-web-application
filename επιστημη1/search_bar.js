@@ -95,22 +95,29 @@ which are administered separately. New technologies are unlocked over time",\
 "link": "https://store.steampowered.com/app/1062090/Timberborn/"}}',
 
 '{"game":\
-{"name": "",\
-"imgs": [],\
-"description": "",\
-"link": ""}}',
+{"name": "Forza Horizon 5",\
+"imgs": ["ForzaHorizon5/img1.jpg", "ForzaHorizon5/img2.jpg", "ForzaHorizon5/img3.jpg", "ForzaHorizon5/img4.jpg", "ForzaHorizon5/img5.jpg", "ForzaHorizon5/img6.jpg"],\
+"description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless,\
+fun driving action in hundreds of the world’s greatest cars.Immerse yourself in a deep campaign with hundreds of challenges that reward you for engaging in the activities you love.\
+Meet new characters and choose the outcomes of their Horizon Story missions.Begin Your Horizon Adventure today!",\
+"link": "https://store.steampowered.com/app/1551360/Forza_Horizon_5/"}}',
 
 '{"game":\
-{"name": "",\
-"imgs": [],\
-"description": "",\
-"link": ""}}',
+{"name": "ASTRONEER",\
+"imgs": ["Astroneer/img1.jpg", "Astroneer/img2.jpg", "Astroneer/img3.jpg", "Astroneer/img4.jpg", "Astroneer/img5.jpg", "Astroneer/img6.jpg"],\
+"description": "Astroneer is a sandbox adventure game played from a third-person view. Its open world planets, where in terraforming can take place, are subject to procedural generation,\
+with the exception of some planet-specific resources. The player controls an astronaut (called an Astroneer) who navigates on foot, by rover, through teleportation, or by spacecraft.\
+Navigating the planet is essential for finding resources, including materials and research items.",\
+"link": "https://store.steampowered.com/app/361420/ASTRONEER/"}}',
 
 '{"game":\
-{"name": "",\
-"imgs": [],\
-"description": "",\
-"link": ""}}'
+{"name": "No Man’s Sky",\
+"imgs": ["NoMansSky/img1.jpg", "NoMansSky/img2.jpg", "NoMansSky/img3.jpg", "NoMansSky/img4.jpg", "NoMansSky/img5.jpg", "NoMansSky/img6.jpg"],\
+"description": "Inspired by the adventure and imagination that we love from classic science-fiction, No Man\'s Sky presents you with a galaxy to explore, filled with unique planets and lifeforms, \
+and constant danger and action. In No Man\'s Sky, every star is the light of a distant sun, each orbited by planets filled with life, and you can go to any of them you choose. \
+Fly smoothly from deep space to planetary surfaces, with no loading screens, and no limits. In this infinite procedurally generated universe, \
+you\'ll discover places and creatures that no other players have seen before - and perhaps never will again.",\
+"link": "https://store.steampowered.com/app/275850/No_Mans_Sky/"}}'
 ];
 
 function search_games() {
