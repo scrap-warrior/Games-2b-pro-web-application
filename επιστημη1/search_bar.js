@@ -3,8 +3,8 @@ var gameData = ['{"game":\
   "imgs":["callOfDuty/img1.jpg","callOfDuty/img2.jpg" ,"callOfDuty/img3.jpg", "callOfDuty/img4.jpg" ,"callOfDuty/img5.jpg"],\
   "description":"Call of Duty is a military first-person shooter video game series and media franchise published by Activision,\
   starting in 2003. The games were first developed by Infinity Ward, then by Treyarch and Sledgehammer Games. Several spin-off and handheld games were made by other developers.\
-  The most recent, Call of Duty: Black Ops 6, was released on October 25, 2024."},\
-  "link": "https://www.callofduty.com/"}',
+  The most recent, Call of Duty: Black Ops 6, was released on October 25, 2024.",\
+  "link": "https://www.callofduty.com/", "price": "€5.58"}}',
   
   '{"game":\
   {"name": "Need For Speed",\
@@ -12,7 +12,7 @@ var gameData = ['{"game":\
   "description": "the player controls a race car in a variety of races, the goal being to win the race. In the tournament/career mode,\
   the player must win a series of races in order to unlock vehicles and tracks. Before each race, the player chooses a vehicle and has the option of selecting either an automatic or manual transmission.\
   All games in the series have some form of multiplayer mode allowing players to race one another via a split screen, a LAN or the Internet",\
-  "link": "https://store.steampowered.com/app/1262540/Need_for_Speed/"}}',
+  "link": "https://store.steampowered.com/app/1262540/Need_for_Speed/", "price": "€5.48"}}',
   
   '{"game":\
   {"name": "Gran Turismo",\
@@ -21,21 +21,21 @@ var gameData = ['{"game":\
   attention to vehicle detail, the ability to tune a car\'s performance, and realistic graphics.Its physics emulation includes real-world dynamics such as weight transfer, suspension response, and understeer/oversteer characteristics.\
   The Sim has been a flagship for the PlayStation console\'s graphics capabilities, and is often used to demonstrate the system\'s potential. It has a replay system shown with a cinematic presentation.\
   The physics of the vehicles are based on their real-life counterparts, and they are represented in the PlayStation controllers rumble features and in specialized racing wheels designed for Gran Turismo and sim racing.",\
-  "link": "https://www.gran-turismo.com/gb/products/"}}',
+  "link": "https://www.gran-turismo.com/gb/products/", "price": "€9.98"}}',
   
   '{"game":\
   {"name": "Fall Guys",\
   "imgs": ["FallGuys/img1.jpg", "FallGuys/img2.jpg", "FallGuys/img3.jpg" ,"FallGuys/img4.jpg"],\
   "description": "Fall Guys is a free, cross-platform massively multiplayer party royale game.\
    Clumsily compete in absurd obstacle courses with friends or build your very own chaotic course to share with the community.",\
-  "link": "https://store.epicgames.com/en-US/p/fall-guys"}}',
+  "link": "https://store.epicgames.com/en-US/p/fall-guys", "price": "€7.20"}}',
   
   '{"game":\
-  {"name": "F1 Game Series",\
+  {"name": "F1 24",\
   "imgs": ["F1/img1.jpg", "F1/img2.jpg", "F1/img3.jpg", "F1/img4.jpg", "F1/img5.jpg", "F1/img6.jpg"], \
-  "description": "players drive cars using game controllers or steering wheels. A session mimics a real race weekend, starting on free practice and ending on the Grand Prix.\
+  "description": "Players drive cars using game controllers or steering wheels. A session mimics a real race weekend, starting on free practice and ending on the Grand Prix.\
   Throughout the race, players experience pit stops and various incidents, which may result in safety cars and changes to the players super license.",\
-  "link": "https://store.steampowered.com/app/2488620/F1_24/"}}',
+  "link": "https://store.steampowered.com/app/2488620/F1_24/", "price": "€32.69"}}',
   
   '{"game":\
   {"name": "Scrap Mechanic",\
@@ -44,14 +44,14 @@ var gameData = ['{"game":\
   ‘Easy money’, they said. We’re pretty sure the job description didn’t mention crash landing on a far away planet,\
   with thousands of crazed worker robots out for blood! You’re stranded on a faraway agriculture planet where the Farmbots working the fields have gone haywire.\
   With your tool belt tightly fastened, there’s only one way to survive: using your quick thinking, creativity and a wily knack of turning your surroundings to your advantage!",\
-  "link": "https://store.steampowered.com/app/387990/Scrap_Mechanic/"}}',
+  "link": "https://store.steampowered.com/app/387990/Scrap_Mechanic/", "price": "€13.39"}}',
   
   '{"game":\
   {"name": "Raft",\
   "imgs": ["Raft/img1.jpg", "Raft/img2.jpg", "Raft/img3.jpg", "Raft/img4.jpg", "Raft/img5.jpg", "Raft/img6.jpg"],\
   "description": "By yourself or with friends, your mission is to survive an epic oceanic adventure across a perilous sea! Gather debris to survive,\
   expand your raft and set sail towards forgotten and dangerous islands!",\
-  "link": "https://store.steampowered.com/app/648800/Raft/"}}',
+  "link": "https://store.steampowered.com/app/648800/Raft/", "price": "€13.39"}}',
   
   '{"game":\
   {"name": "War Thunder",\
@@ -59,14 +59,14 @@ var gameData = ['{"game":\
   "description": "War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles,\
   from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea,\
   fighting with millions of players from all over the world in an ever-evolving environment.",\
-  "link": "https://store.steampowered.com/app/236390/War_Thunder/"}}',
+  "link": "https://store.steampowered.com/app/236390/War_Thunder/", "price": "free"}}',
   
   '{"game":\
   {"name": "Hearts of Iron IV",\
   "imgs": ["HOI4/img1.jpg", "HOI4/img2.jpg", "HOI4/img3.jpg", "HOI4/img4.jpg", "HOI4/img5.jpg"],\
   "description": "Take charge of history’s greatest war machines in Hearts of Iron IV, a grand strategy wargame that challenges your strategic abilities and political insight.\
   Refight World War II at the head of nation from the time period, building up an industrial powerhouse and a diplomatic alliance that will effectively wage war on ideological opponents.",\
-  "link": "https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/"}}',
+  "link": "https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/", "price": "€10.68"}}',
   
   '{"game":\
   {"name": "Trailmakers",\
@@ -75,7 +75,7 @@ var gameData = ['{"game":\
   All game modes can be played in either single-player or multiplayer and the game offers modding support on PC. The camera is usually third-person,\
   but can be changed to first-person by the player.The game features 7 sandbox style maps, Stranded, Treasure Island, Danger Zone, Test Zone, Space Sector, Airborne, and High Seas,\
   2 racing style maps, Rally, and Race Island, 1 PvP style map, The Great Barrier Reef, and 2 campaign maps, Stranded, and airborne, these use the same base maps as the sandbox maps of the same names.",\
-  "link": "https://store.steampowered.com/app/585420/Trailmakers/"}}',
+  "link": "https://store.steampowered.com/app/585420/Trailmakers/", "price": "€6.99"}}',
   
   '{"game":\
   {"name": "The Planet Crafter",\
@@ -84,7 +84,7 @@ var gameData = ['{"game":\
   To do this, you must create items using the various minerals on the planet. The basic minerals are cobalt, ice, iron, magnesium, silicon, and titanium.\
   Using these will allow you access other minerals such as aluminum, iridium, uranium, osmium, zeolite, super alloy and sulfur. In the process of developing a biosphere on the planet you will also need to find seeds,\
   and later on insect larvae and fish eggs once the planet is sufficiently covered in plant life.",\
-  "link": "https://store.steampowered.com/app/1284190/The_Planet_Crafter/"}}',
+  "link": "https://store.steampowered.com/app/1284190/The_Planet_Crafter/", "price": "€14.39"}}',
   
   '{"game":\
   {"name": "Timberborn",\
@@ -92,7 +92,7 @@ var gameData = ['{"game":\
   "description": "Players control a colony of beavers in a post-apocalyptic wasteland where humans have died out. Players build cities, using dams to make the wasteland more habitable and water wheels for power.\
   Players must plan for periods of drought, which cause water levels to fall. This can cause crops to fail and make it difficult to collect the lumber necessary for building. New settlements can be built at any time,\
   which are administered separately. New technologies are unlocked over time",\
-  "link": "https://store.steampowered.com/app/1062090/Timberborn/"}}',
+  "link": "https://store.steampowered.com/app/1062090/Timberborn/", "price": "€18.98"}}',
   
   '{"game":\
   {"name": "Forza Horizon 5",\
@@ -100,7 +100,7 @@ var gameData = ['{"game":\
   "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless,\
   fun driving action in hundreds of the world’s greatest cars.Immerse yourself in a deep campaign with hundreds of challenges that reward you for engaging in the activities you love.\
   Meet new characters and choose the outcomes of their Horizon Story missions.Begin Your Horizon Adventure today!",\
-  "link": "https://store.steampowered.com/app/1551360/Forza_Horizon_5/"}}',
+  "link": "https://store.steampowered.com/app/1551360/Forza_Horizon_5/", "price": "€28.95"}}',,
   
   '{"game":\
   {"name": "ASTRONEER",\
@@ -108,7 +108,7 @@ var gameData = ['{"game":\
   "description": "Astroneer is a sandbox adventure game played from a third-person view. Its open world planets, where in terraforming can take place, are subject to procedural generation,\
   with the exception of some planet-specific resources. The player controls an astronaut (called an Astroneer) who navigates on foot, by rover, through teleportation, or by spacecraft.\
   Navigating the planet is essential for finding resources, including materials and research items.",\
-  "link": "https://store.steampowered.com/app/361420/ASTRONEER/"}}',
+  "link": "https://store.steampowered.com/app/361420/ASTRONEER/", "price": "€7.86"}}',
   
   '{"game":\
   {"name": "No Man’s Sky",\
@@ -117,7 +117,7 @@ var gameData = ['{"game":\
   and constant danger and action. In No Man\'s Sky, every star is the light of a distant sun, each orbited by planets filled with life, and you can go to any of them you choose. \
   Fly smoothly from deep space to planetary surfaces, with no loading screens, and no limits. In this infinite procedurally generated universe, \
   you\'ll discover places and creatures that no other players have seen before - and perhaps never will again.",\
-  "link": "https://store.steampowered.com/app/275850/No_Mans_Sky/"}}'
+  "link": "https://store.steampowered.com/app/275850/No_Mans_Sky/", "price": "€16.68"}}',
   ];
 
 
@@ -321,4 +321,6 @@ function loadGame(){
   document.getElementById("description").textContent = gameInfo.game.description
  
   document.getElementById("link").href = gameInfo.game.link
+
+  document.getElementById("price").textContent = document.getElementById("price").textContent + gameInfo.game.price
 }
