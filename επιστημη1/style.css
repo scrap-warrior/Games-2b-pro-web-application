@@ -5,7 +5,7 @@ body{background-color: #a7a1a1;}
     text-align: center;
     font-weight: bold;
     text-decoration: underline;}
-
+    
 nav{
         margin: 7px;
         padding: 7px;
@@ -47,7 +47,7 @@ nav{
     font-size: 30px;}
 
 .menu a{
-    display: block; /* vertical menu */
+    display: block; /* για το κατακόρυφο μενού */
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
@@ -63,7 +63,7 @@ nav{
     border-bottom: none;
 }
 
-.menu {/*for vertical menu*/
+.menu {/*για το κατακόρυφο μενού*/
     display: flex;
     flex-direction: column;
     min-width: 159.5px;
@@ -141,12 +141,14 @@ nav a:hover
     text-align: center;
     font-weight: bold;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 19px;
     flex-grow: 1;
-    padding-right: 150px;
     text-align: left;
     text-indent: 20px;
-    padding-top: 50px;
+    padding: 10px;
+    padding-top: 5px;
+    margin-right: 200px;
+
 }  
 
 #paragraph_next-to-menu{
@@ -226,6 +228,7 @@ aside {
 	flex-wrap: wrap;
 	justify-content:space-evenly;
     max-width: 100%;
+    margin-right: 70px;
 }
 
 .org {
@@ -259,7 +262,7 @@ main{
 }
 
 .menu_index a{
-    display: block; /* vertical menu */
+    display: block; /* για το κατακόρυφο μενού */
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
@@ -275,7 +278,7 @@ main{
     border-bottom: none;
 }
 
-.menu_index {/*for vertical menu*/
+.menu_index {/*για το κατακόρυφο μενού*/
     display: flex;
     flex-direction: column;
     min-width: 159.5px;
@@ -299,4 +302,167 @@ main{
 .tables{
         border: 2px solid rgb(93, 161, 38);
         border-collapse: collapse;
+}
+
+#contact_button{
+    margin-left: 500px;
+    padding: 10px;
+}
+
+#buttonss{
+    text-align: center;
+}
+
+#block1{
+    display: block;
+    margin-top: -110px;
+    margin-left: 220px;
+}
+
+#start_button{
+    padding: 20px;
+    margin-top: 80px;
+    margin-left: 200px;
+    background-color: rgb(120, 106, 106);
+    border-radius: 8px;
+}
+
+#questions{
+    display: none;
+    margin-top: 90px;
+}
+
+#center{
+    margin-left: 310px;
+}
+
+#score_display{
+    margin-left:750px;
+}
+
+#question_1{
+    display: none;
+}
+
+#question_2{
+    display: none;
+    margin-top: 90px;
+}
+
+#question_3{
+    display: none;
+    margin-top: 90px;
+}
+
+#question_4{
+    display: none;
+    margin-top: 90px;
+}
+
+#question_5{
+    display: none;
+    margin-top: 90px;
+}
+
+#question_6{
+    display: none;
+    margin-top: 90px;
+}
+
+#button_style{
+    background-color: #333; 
+    color: #fff;           
+    border: 2px solid #444; 
+    padding: 10px 20px;    
+    font-size: 16px;     
+    border-radius: 5px;    
+    cursor: pointer;      
+}
+
+#button_style:hover{
+    background-color: #212121; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#button_style:active{
+    box-shadow: none;      /* αφαιρεί την σκια */
+}
+
+.name{
+    padding: 5px 12px;
+}
+
+.answer_buttons{
+    background-color: #333; 
+    color: #fff;           /* χρώμα γραμματοσειράς */
+    border: 2px solid #444;
+    padding: 7px 15px;    /* μέγεθος */
+    font-size: 16px;   
+    border-radius: 5px;  
+    cursor: pointer;       /* κάνει το ποντίκι pointer */
+    width: 220px;
+}
+
+.answer_buttons:hover{
+    background-color: #212121; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.answer_buttons:active{
+    box-shadow: none;      /* αφαιρεί την σκια */
+}
+
+#EmailButton{
+    margin: 10px;
+}
+
+#table_style {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+#table_style th, #table_style td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.gamepg {
+    max-width: 80%;
+    margin-left: 5%;
+    
+ } 
+ 
+.gamepg th{
+     margin: 7px;
+     background-color: #333;
+     padding: 10px;
+     border: 5px solid #a7a1a1;
+     border-collapse: collapse;
+     border-radius: 30px;
+     width: 28%;
+ }
+.gamepg h1{
+     text-align: right;
+     color: white;
+     margin-top: 10px;
+     margin-right: 10px;
+     
+ }
+ 
+.gamepg h2{
+     text-align: center;
+     color: white;
+ }
+
+#product_center{
+    margin-left: 36%;
+}
+
+.gamepg img{
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }

@@ -35,8 +35,9 @@
         <nav class="menu">
             <a href="shopp.html">Κατάστημα</a>
             <a href="products.html">Προϊόντα</a>
-            <a href="">Αξιολόγηση</a>
+            <a href="https://store.steampowered.com/" target="_blank">Αξιολόγηση</a>
             <a href="contact.html">Επικοινωνία</a>
+            <a href="Quiz.html">Quiz</a>
        </nav>
        <div id="flex_g-v">
         <div id="games2bpro1">
@@ -55,16 +56,73 @@
             <h1>o</h1>
         </div>
        </aside>
-       <main>
        
        
-       
-       
-       
-       
-        
-        
-        
+        <form>
+            <br><br>
+            <h2>Πλαίσια Εργασίας:</h2>
+            <br>
+            <h3 id="description">Η εργασία αυτή εκπονήθηκε από τρεις φοιτητές του τμήματος Πληροφορικής του Οικονομικού Πανεπιστημίου Αθηνών, και αποτελεί κομμάτι γνώσης του μαθήματος της Επιστήμης Υπολογιστών, καθώς εστιάζει στην ανάπτυξη κώδικα της html, της css και της javascript. H ιστοσελίδα αυτή σκοπό έχει να αναδείξει κυρίως την γνώση, που αποκομίστηκε από τα εργαστήρια, καθώς και το ομαδικό πνεύμα και την συνεργασία που επιτεύχθηκε για το συκγεκριμένο αποτέλεσμα.</h3>
+            <br><br>
+            <h2>Πηγές:</h2>
+            <br>
+            <ul>
+                <li><a href="https://www.g2a.com/news/features/best-action-adventure-games-to-play/">image:  videogames</a></li>
+                <li><a href="https://www.youtube.com/watch?v=laKH0CVOGHE">video: videogames</a></li>
+                <li><a href="https://www.facebook.com/photo/?fbid=1156393857799706&set=ecnf.100077556134634">img: videogames quiz</a></li>
+                <li><a href="https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/">help for the searchbar</a></li>
+                <li><a href="https://www.eneba.com/">Τιμές και εικόνες παιχνιδιών</a></li>
+                <li><a href="https://store.steampowered.com/">Πληροφορίες και εικόνες παιχνιδιών</a></li>
+                <li><a href="https://www.wikipedia.org/">Πληροφορίες Παιχνιδιών</a></li>
+                <li><a href="https://www.fandom.com/">Περιγραφή Παιχνιδιών</a></li>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <h2>Στοιχεία Επικοινωνίας:</h2>
+            <br>
+            <table id="table_style">
+                <tr>
+                    <td>Ονοματεπώνυμο</td>
+                    <td>Αριθμός Μητρώου</td>
+                    <td>Email</td>
+                </tr>
+                <tr>
+                    <td>Παραράς Νεκτάριος</td>
+                    <td>3240166</td>
+                    <td>nekpar48@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Ροδίτης Γεώργιος</td>
+                    <td>3240178</td>
+                    <td>g.roditis2@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Στάθης Δημήτρης</td>
+                    <td>3240189</td>
+                    <td>dstathis888@gmail.com</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <h2>Email:</h2>
+            <br>
+            <input type="text" placeholder="Email Subject..." id="Subject" class="name">
+            <br>
+            <br>
+            <input type="text" placeholder="Email Message..." id="Message" class="name">
+            <br>
+            <br>
+            <br>
+            <h2>Προς:</h2>
+            <br>
+            <button onclick="SendMail1()" id="EmailButton" class="answer_buttons">Παραράς Νεκτάριος</button>
+            <button onclick="SendMail2()" id="EmailButton" class="answer_buttons">Ροδίτης Γεώργιος</button>
+            <button onclick="SendMail3()" id="EmailButton" class="answer_buttons">Στάθης Δημήτρης</button>
+            <br><br><br><br><br>
+        </form>
+    
         <p id="footer">Authors: Παραράς Νεκτάριος, Ροδίτης Γεώργιος, Στάθης Δημήτρης</p>
         <p id="footer">Copyright 2025</p>
     </body>

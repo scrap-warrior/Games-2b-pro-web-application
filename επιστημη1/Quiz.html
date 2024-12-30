@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="description"  content="Αυτή η ιστοσελίδα δημιουργήθηκε στα πλαίσια μιας πανεπιστημιακής εργασίας">
+        <meta name="Συγγραφείς Ιστοσελίδας" content="Παραράς Νεκτάριος, Ροδίτης Γεώργιος, Στάθης Δημήτρης">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="search_bar.js"></script>
+    </head>
+    <body>
+        <nav class="horizontal_bar">
+            <a href="index.html"><img class=homepg src="Arxikh_but_white.png" alt="ΑΡΧΙΚΗ"></a>
+            <input id="searchbar" onkeyup="search_games()" type="text" name="search" placeholder="Search games...">
+            <ul id="list">
+                <button onclick="localStorage.setItem('gameID', 1); window.location = './product_details.html'" class="Games" id="1">Call of Duty</button>
+                <button onclick="localStorage.setItem('gameID', 2); window.location = './product_details.html'" class="Games" id="2">Need for Speed</button>
+                <button onclick="localStorage.setItem('gameID', 3); window.location = './product_details.html'" class="Games" id="3">Gran Turismo</button>
+                <button onclick="localStorage.setItem('gameID', 4); window.location = './product_details.html'" class="Games" id="4">Fall Guys</button>
+                <button onclick="localStorage.setItem('gameID', 5); window.location = './product_details.html'" class="Games" id="5">F1 24</button>
+                <button onclick="localStorage.setItem('gameID', 6); window.location = './product_details.html'" class="Games" id="6">Scrap Mechanic</button>
+                <button onclick="localStorage.setItem('gameID', 7); window.location = './product_details.html'" class="Games" id="7">Raft</button>
+                <button onclick="localStorage.setItem('gameID', 8); window.location = './product_details.html'" class="Games" id="8">War Thunder</button>
+                <button onclick="localStorage.setItem('gameID', 9); window.location = './product_details.html'" class="Games" id="9">Hearts of Iron IV</button>
+                <button onclick="localStorage.setItem('gameID', 10); window.location = './product_details.html'" class="Games" id="10">Trailmakers</button>
+                <button onclick="localStorage.setItem('gameID', 11); window.location = './product_details.html'" class="Games" id="11">The Planet Crafter</button>
+                <button onclick="localStorage.setItem('gameID', 12); window.location = './product_details.html'" class="Games" id="12">Timberborn</button>
+                <button onclick="localStorage.setItem('gameID', 13); window.location = './product_details.html'" class="Games" id="13">Forza Horizon 5</button>
+                <button onclick="localStorage.setItem('gameID', 14); window.location = './product_details.html'" class="Games" id="14">ASTRONEER</button>
+                <button onclick="localStorage.setItem('gameID', 15); window.location = './product_details.html'" class="Games" id="15">No Man's Sky</button>
+            </ul>
+            <p id="Games_2b_Pro">Games 2b Pro</p>
+        </nav>
+       <div id="paragraph_next-to-menu">
+            <nav class="menu_index">
+                <a href="shopp.html">Κατάστημα</a>
+                <a href="products.html">Προϊόντα</a>
+                <a href="https://store.steampowered.com/" target="_blank">Αξιολόγηση</a>
+                <a href="contact.html">Επικοινωνία</a>
+                <a href="Quiz.html">Quiz</a>
+            </nav>
+            <div id="Headline_above_paragraph">
+                <h1 id="Headline"> Mini Quiz Γνώσεων</h1>
+                <br>
+                <p id="description">
+                    Το quiz γνώσεων πολλαπλής επιλογής είναι ένα διασκεδαστικό και εκπαιδευτικό εργαλείο που σχεδιάστηκε για την ιστοσελίδα της εταιρείας Games 2b Pro, η οποία πουλάει βιντεοπαιχνίδια. Οι συμμετέχοντες απαντούν σε ερωτήσεις σχετικές με βιντεοπαιχνίδια, εταιρείες ανάπτυξης και γενικές πληροφορίες γύρω από την gaming βιομηχανία, δοκιμάζοντας τις γνώσεις τους και μαθαίνοντας νέα πράγματα.
+                </p>
+                </div>
+            </div>
+        </div>
+        <div id="flex_g-v">
+            <div id="games2bpro">
+                <h1>G</h1>
+                <h1>a</h1>
+                <h1>m</h1>
+                <h1>e</h1>
+                <h1>s</h1>
+                <br>
+                <br>
+                <h1 id="bb">2b</h1>
+                <br>
+                <br>
+                <h1>P</h1>
+                <h1>r</h1>
+                <h1>o</h1>
+            </div>
+            <div id="block1">
+                <img src="vdiogame_quiz.jpg" width="255px" height="255px" alt="videogames" id="img_videogames">
+                <div id="start_button">
+                    <input type="text" placeholder="Type your name..." id="name" class="name">
+                    <button onclick="start_quiz()" id="button_style">Ξεκίνα το Quiz</button>
+                </div>
+                <div id="questions">
+                    <!-- Ερώτηση 1 -->
+                    <div id="question_1">
+                        <h2>1η Ερώτηση:</h2>
+                        <br>
+                        <h3>Ποιο από τα παρακάτω παιχνίδια έχει δημιουργηθεί από την εταιρεία Nintendo;</h3>
+                        <br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Α. God of War</button>
+                        <br><br>
+                        <button onclick="answer_question('correct')" class="answer_buttons">Β. The Legend of Zelda</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Γ. Red Dead Redemption</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Δ. Assassin’s Creed</button>
+                    </div>
+                
+                    <!-- Ερώτηση 2 -->
+                    <div id="question_2">
+                        <h2>2η Ερώτηση:</h2>
+                        <br>
+                        <h3>Ποια κονσόλα της Sony κυκλοφόρησε πρώτη;</h3>
+                        <br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Α. PlayStation 2</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Β. PlayStation 3</button>
+                        <br><br>
+                        <button onclick="answer_question('correct')" class="answer_buttons">Γ. PlayStation 1</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Δ. PlayStation 4</button>
+                    </div>
+                
+                    <!-- Ερώτηση 3 -->
+                    <div id="question_3">
+                        <h2>3η Ερώτηση:</h2>
+                        <br>
+                        <h3>Ποιο από τα παρακάτω παιχνίδια είναι open-world;</h3>
+                        <br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Α. Tetris</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Β. Pac-Man</button>
+                        <br><br>
+                        <button onclick="answer_question('correct')" class="answer_buttons">Γ. The Witcher 3</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Δ. Candy Crush</button>
+                    </div>
+                
+                    <!-- Ερώτηση 4 -->
+                    <div id="question_4">
+                        <h2>4η Ερώτηση:</h2>
+                        <br>
+                        <h3>Ποια εταιρεία δημιούργησε τη σειρά παιχνιδιών "Halo";</h3>
+                        <br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Α. Sony</button>
+                        <br><br>
+                        <button onclick="answer_question('correct')" class="answer_buttons">Β. Microsoft</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Γ. Nintendo</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Δ. Sega</button>
+                    </div>
+                
+                    <!-- Ερώτηση 5 -->
+                    <div id="question_5">
+                        <h2>5η Ερώτηση:</h2>
+                        <br>
+                        <h3>Ποιο είναι το όνομα του πρωταγωνιστή στη σειρά παιχνιδιών "Uncharted";</h3>
+                        <br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Α. Lara Croft</button>
+                        <br><br>
+                        <button onclick="answer_question('correct')" class="answer_buttons">Β. Nathan Drake</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Γ. Ezio Auditore</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Δ. Kratos</button>
+                    </div>
+                
+                    <!-- Ερώτηση 6 -->
+                    <div id="question_6">
+                        <h2>6η Ερώτηση:</h2>
+                        <br>
+                        <h3>Ποιο από τα παρακάτω παιχνίδια ανήκει στη σειρά "The Elder Scrolls";</h3>
+                        <br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Α. Diablo</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Β. World of Warcraft</button>
+                        <br><br>
+                        <button onclick="answer_question('correct')" class="answer_buttons">Γ. Skyrim</button>
+                        <br><br>
+                        <button onclick="answer_question('wrong')" class="answer_buttons">Δ. Dark Souls</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <br>
+        <br>
+        <p id="footer">Authors: Παραράς Νεκτάριος, Ροδίτης Γεώργιος, Στάθης Δημήτρης</p>
+        <p id="footer">Copyright 2025</p>
+        <br>
+    </body>
+</html>
