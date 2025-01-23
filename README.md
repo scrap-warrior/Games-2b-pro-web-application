@@ -1,4 +1,4 @@
-A website made as a project for university. 
+A website made as a group project for university. 
 
 Technologies used: 
   - HTML
